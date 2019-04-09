@@ -1,0 +1,290 @@
+.parallax {
+  /* The image used */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./../img/kawa.jpg");
+  /* Set a specific height */
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px); */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax2 {
+  /* The image used */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./../img/kawa.jpg");
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.data-box {
+  width: 286px;
+  height: 180px;
+}
+
+.caraousel-inner img {
+  width: 100%;
+  height: auto;
+}
+
+div.dta {
+  white-space: nowrap;
+  width: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border: 1px solid #000000;
+}
+
+.bg-teks-mid {
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /*z-index: 2;*/
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.bg-blur {
+  /* The image used */
+  background-image: url("https://images5.alphacoders.com/456/456536.jpg");
+
+  /* Add the blur effect */
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+
+  /* Full height */
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* .card {
+  display: inline-block;
+  position: relative;
+  padding-top: 0;
+  width: 300px;
+  margin: 15px;
+}
+
+.card-body {
+  min-height: 178px;
+} */
+
+/* .card a {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin: 20px;
+} */
+
+.poster-home {
+  background: url("./../img/kawa.jpg");
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+
+.transparana {
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.8),
+    rgba(255, 255, 255, 0.8)
+  );
+}
+
+.nav-item:hover {
+}
+
+.white {
+  color: white;
+}
+
+.bg-white {
+  background: white;
+}
+
+.fa-html5:hover {
+  color: purple;
+}
+
+.fa-java:hover {
+  color: greenyellow;
+}
+
+.fa-css3-alt:hover {
+  color: #e542f4;
+}
+
+.fa-js:hover {
+  color: #42f456;
+}
+
+.fa-php:hover {
+  color: purple;
+}
+
+.fa-laravel:hover {
+  color: blue;
+}
+
+.fa-twitter-square:hover {
+  color: purple;
+}
+
+.fa-facebook-square:hover {
+  color: greenyellow;
+}
+
+.fa-github-square:hover {
+  color: #e542f4;
+}
+
+.fa-instagram:hover {
+  color: #42f456;
+}
+
+.fa-linkedin-square:hover {
+  color: purple;
+}
+
+.fa-whatsapp-square:hover {
+  color: blue;
+}
+
+.bg-kuning {
+  background: coral;
+  opacity: 0.8;
+}
+
+.bg-abuabu {
+  background: #d2d7dd;
+}
+
+.border-5 {
+  border-width: 5px !important;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  font-family: "Quicksand Light", "Droid Serif", serif;
+  font-size: 20px;
+}
+
+.ini-quicksand {
+  font-family: "Quicksand Light";
+}
+
+.ini-neue {
+  font-family: "Bebas Neue";
+}
+
+.ini-berlin-logo {
+  font-family: "Berlin";
+}
+
+.ini-gillsandstd {
+  font-family: "Gill Sans Std Shadowed", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
+}
+
+.navbar.berubah {
+  /* background: #1a1a1a !important;
+  opacity: 1; */
+}
+
+.navbar.bg-dark {
+  /* background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
+  /* url("./../img/kawa.jpg"); */
+}
+
+.ini-border {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 20px 0px 20px 0px;
+  margin-top: 20px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+.bg-hobby {
+  background-color: #454647;
+}
+
+.bg-hobby p {
+  color: #d2d7dd;
+}
+
+.fa-fish {
+  color: aliceblue;
+}
+
+.fa-fish:hover {
+  color: #5587d6;
+}
+
+.fa-youtube-square:hover {
+  color: #ed3d63;
+}
+
+.fa-youtube-square {
+  color: aliceblue;
+}
+
+.icon-hijab {
+  background-image: url("./../img/hijab-logo.png");
+  width: 35%;
+  height: 30%;
+  margin-left: 5px;
+}
+
+.paddingenak {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.verticaltext {
+  position: relative;
+  padding-left: 50px;
+  margin: 1em 0;
+  min-height: 120px;
+}
+
+.verticaltext_content {
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  left: -40px;
+  top: 35px;
+  position: absolute;
+  color: black;
+  text-transform: uppercase;
+  font-size: 26px;
+  font-weight: bold;
+}
